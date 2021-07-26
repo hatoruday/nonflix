@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Link, withRouter } from "react-router-dom";
+
+
 const Header = styled.header`
     color:white;
     position:fixed;
@@ -23,7 +25,7 @@ const Item = styled.li`
     /* &:not(:last-child) {
         margin-right: 10px;
     } */
-    transition: border-bottom 0.5s ease-in-out
+    transition: border-bottom 0.5s ease-in-out;
 `;
 
 const SLink = styled(Link)`
@@ -40,6 +42,8 @@ const List = styled.ul`
         background-color:blue;
     } */
 `;
+
+
 const header = ({location : { pathname}}) => (
     <Header>
         <List>

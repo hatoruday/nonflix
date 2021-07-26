@@ -9,7 +9,7 @@ const globalStyles = createGlobalStyle`
         color:inherit;
     }
     * {
-        box-sizing:border-box;
+        box-sizing:border-box; //border 고려. w와 h의 값은 border포함
     }
     body {
         font-family:serif;
